@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       // with options: http://localhost:5173/api/bar-> http://jsonplaceholder.typicode.com/bar
       "/api": {
-        target: "https://aplikasi-belanja-pearl.vercel.app/",
+        target: "https://aplikasi-belanja-pearl.vercel.app",
         changeOrigin: true,
       },
     },
