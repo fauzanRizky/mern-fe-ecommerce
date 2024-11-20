@@ -36,7 +36,7 @@ import { store } from "./store";
 
 //Error compomnent
 import ErrorView from "./pages/errorView";
-import Order from "../../server/models/orderModel";
+// import Order from "../../server/models/orderModel";
 
 const router = createBrowserRouter([
   {
